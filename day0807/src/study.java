@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class study {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("한 개의 숫자를 입력하세요: ");
