@@ -1,0 +1,39 @@
+* 생성자
+- 객체를 만드는 메소드
+- 객체 생성, 필드 초기화
+- 생성자 또한 메소드 이기에 호출과 정의로 나뉘어 사용된다
+- 생성자와 일반 메소드와의 차이는 리턴 타입의 유무다
+- 하나의 자바 파일에 하나의 public class 만 가능함
+
+* void 뒤에 오는것이 메서드
+
+* ex) cat 이라는 이름의 메서드를 다양하게 설정
+
+- 이름이 cat인 메서드
+  void cat() {
+  System.out.println("매개변수 없음");
+  }
+  => 결과: 매개변수 없음
+
+- 매개변수 int형이 2개인 메서드
+  void cat(int a, int b) {
+  System.out.println("매개변수: " + a + ", "+ b);
+  }
+  => 결과: 매개변수: a, b
+
+- 매개변수가 String형이 1개인 cat 메서드 
+  void cat (String c) {
+  System.out.println("매개변수: " + c);
+  }
+  => 결과: 매개변수: c
+
+
+
+* 객체
+- 필드를 하나로 묶은개념(?)
+
+
+Overloading 
+참고하기
+https://cloudstudying.kr/lectures/197#google_vignette
+https://private.tistory.com/25

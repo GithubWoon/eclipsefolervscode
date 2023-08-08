@@ -32,3 +32,4 @@ public class overloadingDemo {
         c1.sum();       
         c1.avg();   
     }
+}
