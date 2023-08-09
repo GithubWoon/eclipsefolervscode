@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Appclone",
+      "request": "launch",
+      "mainClass": "Appclone",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
       "name": "overloadingDemo2",
       "request": "launch",
       "mainClass": "overloadingDemo2",
