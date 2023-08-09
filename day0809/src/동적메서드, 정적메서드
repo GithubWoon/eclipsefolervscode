@@ -1,0 +1,31 @@
+동적 메서드 - 인스턴스 메서드: 클래스의 객체에 속한 메서드, 객체의 상태변경, 객체의 특정동작 수행, 객체가 있어야 호출가능
+
+정적 메서드 - 스테틱 메서드: 클래스에 속한 메서드, 클래스 자체에 연결되어있음 전체적용(?), 클래스명으로 호출가능,  static이 붙음
+
+
+예시)
+
+  public class Car {
+      String brand;
+      int year;
+
+      public void startEngine() { ;// void 대신에 int, double 등등 올수있음
+          System.out.println("Engine started!"); 
+      }
+
+      public void stopEngine() {
+          System.out.println("Engine stopped!");
+      }
+
+      public static void main(String[] args) {
+          Car myCar = new Car();  // 객체 생성
+          myCar.brand = "Toyota"; // 필드 설정
+          myCar.year = 2022;      // 필드 설정
+
+          System.out.println("Brand: " + myCar.brand);
+          System.out.println("Year: " + myCar.year);
+
+          myCar.startEngine();    // 메서드 호출
+          myCar.stopEngine();     // 메서드 호출
+      }
+  }
