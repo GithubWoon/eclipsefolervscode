@@ -8,6 +8,13 @@
       "type": "java",
       "name": "Main",
       "request": "launch",
+      "mainClass": "day0810.src2.Main",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
       "mainClass": "day0809.src2.Main",
       "projectName": "eclipsefoldervscode_74655150"
     },
