@@ -25,4 +25,7 @@ public class Business extends Person {
   pbulic String toString() {
     return String.format("이름: %s", 회사: "%s", this.getName(), this.company);
   }
+  
+}
+{
 }

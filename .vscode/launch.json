@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Friday53",
+      "request": "launch",
+      "mainClass": "Friday53",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
+      "name": "Friday35",
+      "request": "launch",
+      "mainClass": "Friday35",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
+      "name": "Friday3",
+      "request": "launch",
+      "mainClass": "Friday3",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
+      "name": "Friday",
+      "request": "launch",
+      "mainClass": "Friday",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
+      "name": "ReviewMain",
+      "request": "launch",
+      "mainClass": "ReviewMain",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "day0810.src2.Main",
