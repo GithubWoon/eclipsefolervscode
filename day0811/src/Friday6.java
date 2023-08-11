@@ -9,7 +9,7 @@ public class Friday6 {
         int size = scanner.nextInt();
         
         // 정수형 배열 생성
-        int[] iArr = new int[size];
+        int[] iArr = new int[size]; // siz는 배열의 크기
         
         // 가운데 위치 계산
         int middleIndex = size / 2;
@@ -22,7 +22,7 @@ public class Friday6 {
         // 배열의 값을 출력하는 대신 배열 자체를 출력
         System.out.print("배열의 값: [");
         for (int i = 0; i < size; i++) {
-            System.out.print(iArr[i]);
+            System.out.print(iArr[i]); // iArr 이라는 배열에 i+1번쨰요소
             if (i < size - 1) {
                 System.out.print(", ");
             }

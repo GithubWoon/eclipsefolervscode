@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Friday7",
+      "request": "launch",
+      "mainClass": "Friday7",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
+      "name": "Friday6",
+      "request": "launch",
+      "mainClass": "Friday6",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
       "name": "Friday6",
       "request": "launch",
       "mainClass": "Friday6",
