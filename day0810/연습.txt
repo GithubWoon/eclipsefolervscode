@@ -1,0 +1,4 @@
+class ATest: public int a, int b, getter/setter
+class BTest publc int c, int d, getter/setter
+
+ATest atet = ne ATest();
