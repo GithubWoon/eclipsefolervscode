@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Friday6",
+      "request": "launch",
+      "mainClass": "Friday6",
+      "projectName": "eclipsefolervscode_c955b68b"
+    },
+    {
+      "type": "java",
       "name": "Friday53",
       "request": "launch",
       "mainClass": "Friday53",
