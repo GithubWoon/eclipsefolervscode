@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Warehouse2",
+      "request": "launch",
+      "mainClass": "Warehouse2",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
+      "name": "Warehouse",
+      "request": "launch",
+      "mainClass": "Warehouse",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
+      "name": "WarehouseManagement",
+      "request": "launch",
+      "mainClass": "WarehouseManagement",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
       "name": "Friday7",
       "request": "launch",
       "mainClass": "Friday7",
