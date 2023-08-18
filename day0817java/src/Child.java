@@ -1,5 +1,3 @@
-package com.acorn._final.inheritance;
-
 public class Child extends Parent {
 	private int child01;
 	

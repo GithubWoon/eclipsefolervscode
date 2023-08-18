@@ -1,5 +1,3 @@
-package com.acorn._final.inheritance;
-
 public class Parent {
 	private int parent01;
 	private int parent02;
