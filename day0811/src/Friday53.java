@@ -56,19 +56,19 @@ public class Friday53 {
         }
 
         // 배열의 작은 값을 정렬하여 출력
-        for (int i = 0; i < count; i++) {
-            for (int j = i + 1; j < count; j++) {
-                if (smallValues[i] > smallValues[j]) {
-                    int temp = smallValues[i];
-                    smallValues[i] = smallValues[j];
-                    smallValues[j] = temp;
+        for (int a = 0; a < count; a++) {
+            for (int b = a + 1; b < count; b++) {
+                if (smallValues[a] > smallValues[b]) {
+                    int temp = smallValues[a];
+                    smallValues[a] = smallValues[b];
+                    smallValues[b] = temp;
                 }
             }
         }
 
         System.out.println("5보다 작은 숫자는:");
-        for (int i = 0; i < count; i++) {
-            System.out.println(smallValues[i]);
+        for (int a = 0; a < count; a++) {
+            System.out.println(smallValues[a]);
         }
 
         sc.close();
