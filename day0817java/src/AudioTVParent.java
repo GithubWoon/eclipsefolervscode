@@ -1,10 +1,9 @@
-package com.acorn.inheritance;
-
 public class AudioTVParent {
-    private boolean power;
-    private int volumn;
+    boolean power;
+    int volumn;
     
     public AudioTVParent() {}
+    	
     public AudioTVParent(boolean power, int volumn) {
     	this.power = power;
     	this.volumn = volumn;

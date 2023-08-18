@@ -1,25 +1,12 @@
-package com.acorn.inheritance;
-
-public class TV {
-    private boolean power;
-    private int volumn;
+public class TVChild extends AudioTVParent {
     private int size;
     
-    public TV() { }
+    public TVChild() { }
 
-    public TV(boolean power, int volumn, int size) {
-    	this.power = power;
-    	this.volumn = volumn;
+    public TVChild(boolean power, int volumn, int size) {
+    	super(power, volumn);
     	this.size = size;
-    }
-    
-    public boolean getPower() { return power; }
-
-    public void setPower(boolean power) {
-        this.power = power;
-    }
-
-    public int getVolumn() { return volumn; }
+    }     
 
     public int getSize() { return size; }
 
@@ -28,7 +15,7 @@ public class TV {
     }
 
     public void watch() {
-        String sOnOff = power ? "Have fun" : "Switch on";
+        String sOnOff = getPower() ? "Have fun" : "Switch on";
         System.out.println(sOnOff);
     }
 
