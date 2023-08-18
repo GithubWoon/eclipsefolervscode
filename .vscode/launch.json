@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main01",
+      "request": "launch",
+      "mainClass": "Main01",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
       "name": "Main02",
       "request": "launch",
       "mainClass": "Main02",
