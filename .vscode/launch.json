@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "eclipsefolervscode_c955b68b"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "eclipsefolervscode_c955b68b"
+    },
+    {
+      "type": "java",
+      "name": "CloneTest",
+      "request": "launch",
+      "mainClass": "CloneTest",
+      "projectName": "eclipsefolervscode_c955b68b"
+    },
+    {
+      "type": "java",
       "name": "Friday35",
       "request": "launch",
       "mainClass": "Friday35",
