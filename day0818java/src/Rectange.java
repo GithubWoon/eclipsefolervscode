@@ -1,44 +1,24 @@
-public class Rectange {
-    // 기본 도형 클래스
-}
-
 public class Rectange extends Shape {
     private double width;
     private double height;
     
     // 생성자
+    public Rectange() {}
     public Rectange(double width, double height) {
+        super(name);
         this.width = width;
         this.height = height;
     }
     
-    // 면적 계산 메서드
-    public double calculateArea() {
-        return width * height;
+    public double area() {
+        double dArea = width * height;
+        return dArea;
     }
     
-    // 둘레 계산 메서드
-    public double calculatePerimeter() {
-        return (width + height) * 2;
+    public double perimeter() {
+        double dPerimeter = (w*h)*2;
+        return dPerimeter;
     }
-    
-    // width Getter
-    public double getWidth() {
-        return width;
-    }
-    
-    // height Getter
-    public double getHeight() {
-        return height;
-    }
-    
-    // width Setter
-    public void setWidth(double width) {
-        this.width = width;
-    }
-    
-    // height Setter
-    public void setHeight(double height) {
-        this.height = height;
-    }
-}
+
+  }
+
