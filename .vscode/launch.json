@@ -6,38 +6,17 @@
   "configurations": [
     {
       "type": "java",
-      "name": "Warehouse2",
+      "name": "Friday35",
       "request": "launch",
-      "mainClass": "Warehouse2",
-      "projectName": "eclipsefoldervscode_74655150"
+      "mainClass": "Friday35",
+      "projectName": "eclipsefolervscode_c955b68b"
     },
     {
       "type": "java",
-      "name": "Warehouse",
+      "name": "Friday53",
       "request": "launch",
-      "mainClass": "Warehouse",
-      "projectName": "eclipsefoldervscode_74655150"
-    },
-    {
-      "type": "java",
-      "name": "WarehouseManagement",
-      "request": "launch",
-      "mainClass": "WarehouseManagement",
-      "projectName": "eclipsefoldervscode_74655150"
-    },
-    {
-      "type": "java",
-      "name": "Friday7",
-      "request": "launch",
-      "mainClass": "Friday7",
-      "projectName": "eclipsefoldervscode_74655150"
-    },
-    {
-      "type": "java",
-      "name": "Friday6",
-      "request": "launch",
-      "mainClass": "Friday6",
-      "projectName": "eclipsefoldervscode_74655150"
+      "mainClass": "Friday53",
+      "projectName": "eclipsefolervscode_c955b68b"
     },
     {
       "type": "java",
