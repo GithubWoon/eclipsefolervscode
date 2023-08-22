@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "idpwdshipSystem",
+      "request": "launch",
+      "mainClass": "idpwdshipSystem",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
+      "name": "SnackMenu",
+      "request": "launch",
+      "mainClass": "SnackMenu",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
+      "name": "AbstractFactoryPatternDemo",
+      "request": "launch",
+      "mainClass": "AbstractFactoryPatternDemo",
+      "projectName": "eclipsefoldervscode_74655150"
+    },
+    {
+      "type": "java",
       "name": "Main01",
       "request": "launch",
       "mainClass": "Main01",
