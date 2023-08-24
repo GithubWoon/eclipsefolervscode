@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CatchCrap",
+      "request": "launch",
+      "mainClass": "CatchCrap",
+      "projectName": "eclipsefolervscode_e78c1245"
+    },
+    {
+      "type": "java",
+      "name": "Main02",
+      "request": "launch",
+      "mainClass": "Main02",
+      "projectName": "eclipsefolervscode_e78c1245"
+    },
+    {
+      "type": "java",
+      "name": "App",
+      "request": "launch",
+      "mainClass": "App",
+      "projectName": "eclipsefolervscode_e78c1245"
+    },
+    {
+      "type": "java",
       "name": "idpwdshipSystem",
       "request": "launch",
       "mainClass": "idpwdshipSystem",
