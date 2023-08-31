@@ -1,0 +1,89 @@
+세상은 데이터(나이, 이름, 주소, 사회적정보) 구성
+
+* 변수: 데이터 타입 - 변수명
+
+변수선언: 데이터 타입 - 변수명
+int iValue;
+double iValue;
+String iValue;
+
+초기화, 할당
+iValue = 10;
+dValue = 11;
+
+변수의 기본값: 자동저장 x
+
+* 특수변수
+배열선언 -> 초기화
+데이터타입[] 변수
+
+배열변수 초기화 방법1 (배열지정)
+int[] iArrValue1 = {10, 20, 30, 40, 50};
+
+배열변수 초기화 방법2 (배열개수)
+int] iArrValue2 = new int[5]; // {0, 0, 0, 0, 0}
+
+배열 변수 요소에 접근 : 배열변수명[위치값] 인덱스 위치
+System.out.println(iArrValue2[3]); = 30
+
+* 제어문: 조건/반복문
+연산: +, -, *, /, %             >, <, <=, =>, ==, !=
+
+조건: if조건) (참일때) else (거짓일때)
+if(iValue1 > 10) {System.out.println("크다");} else{System.out.println("작거나같다");}
+
+반복: for(조건) (조건식이 참 일동안 실행할 명령문)
+      while(조건) (조건식이 참 일동안 실행할 명령문)
+for(초기값; 조건식; 증감값)
+1부터 5까지 출력한다고 가정
+int iAccumulateCnt1 = 1;
+
+System.out.println(iAccumulateCnt1); 
+iAccumulateCnt1++; // 1
+System.out.println(iAccumulateCnt1); 
+iAccumulateCnt1++; // 2
+System.out.println(iAccumulateCnt1);
+iAccumulateCnt1++; // 3
+System.out.println(iAccumulateCnt1);
+iAccumulateCnt1++; // 4
+System.out.println(iAccumulateCnt1);
+iAccumulateCnt1++; // 5
+
+int iAccumulateCnt2 = 1;
+while(iAccumulateCnt2<=5) {
+      System.out.pritln(iAccumulateCnt2);
+      iAccumulateCnt2++;
+}
+// 1, 2, 3, 4, 5
+
+* 채화된 기본 패턴 숙지
+int iValue1 = 30;
+int iValue2 = 10;
+int iResultValue = iValue1 / ivalue2;
+System.out.println(iResultValue); 
+// 30/10 = 3
+
+계산기 만들기
+1. 초기값 0으로 설정
+2. +, -, *, / 의 연산을 실행할 수 있어야하니 각각에 변수 지정 (더하기를 실행할 변수, 빼기를 실행할 변수, 곱셈을 실행할 변수, 나눗셈을 실행할 변수)
+3. 출력
+
+Q. 빼기 연산의 결과는 양수
+iRet01 = iFirstVal + iSecondVal;
+if(iFirstVal >=)
+
+* 함수
+함수선언, 정의
+리턴타입, 함수명(파라미터1, 파라미터2)
+함수호출
+
+pbulic static int add(int iFirstVal, int iSecondVal) {
+int iRet01 = 0;
+iRet01 = iFirstVal + iSecondVal;
+return iRet01;
+
+}
+
+public static int sub(int FirstVal, int iSecondVal) {
+      return 0;
+}
