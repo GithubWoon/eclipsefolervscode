@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ThreadExample",
+      "request": "launch",
+      "mainClass": "ThreadExample",
+      "projectName": "eclipsefolervscode_c955b68b"
+    },
+    {
+      "type": "java",
       "name": "CatchCrap",
       "request": "launch",
       "mainClass": "CatchCrap",
