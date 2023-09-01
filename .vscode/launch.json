@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Server",
+      "request": "launch",
+      "mainClass": "Server",
+      "projectName": "eclipsefolervscode_e78c1245"
+    },
+    {
+      "type": "java",
       "name": "CatchCrap",
       "request": "launch",
       "mainClass": "CatchCrap",
